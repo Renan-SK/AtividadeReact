@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../../imagem/guitarra_fundo_body.jpg');
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.separacao{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../../imagem/guitarras_header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.caixa{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+
+}
+
+.caixinha{
+    width: 17%;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px black solid
+}
+
+.caixinha p{
+ padding: 8%;
+}

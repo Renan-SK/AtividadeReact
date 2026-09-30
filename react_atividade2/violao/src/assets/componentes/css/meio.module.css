@@ -1,0 +1,170 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.caixa{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    border-top: 10px solid rosybrown;
+    border-bottom: 10px solid rosybrown;
+}
+
+.caixa1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+
+.caixa2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    border-top: 10px solid rosybrown;
+}
+
+.caixa3{
+    width: 99.45%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 10px solid rosybrown;
+    border-bottom: 10px solid rosybrown;
+    border-right: 10px solid rosybrown;
+}
+
+.caixa .caixinhas{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rosybrown;
+}
+
+.caixa .caixinhas .caixinhasauto p{
+    color: white;
+    margin: 3%;
+}
+
+
+.caixa1 .caixinhas{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.caixa2 .caixinhas{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rosybrown;
+}
+.caixa3 .caixinhas{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.caixa1 .caixinhas .imagem{
+    width: 50%;
+    height: 60%;
+}
+
+.caixa1 .caixinhas .texto{
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+.caixa2 .caixinhas .caixinhasauto{
+    width: 90%;
+    height: 300px;
+    margin: 5% auto;
+}
+
+.caixa2 .caixinhas .caixinhasauto p{
+    color: white;
+    margin-top: 3%;
+}
+
+
+.caixa3 .caixinhas .ajuste{
+    width: 50%;
+    height: 60%;
+    margin: 8% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa3 .caixinhas .forms{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.caixa3 .caixinhas .forms input{
+    width: 90%;
+    height: 10%;
+    margin-top: 4% ;
+
+}
+
+.caixa3 .caixinhas .forms textarea{
+    width: 60%;
+    height: 40%;
+    margin-top: 4%;
+    
+}
+
+.caixa3 .caixinhas .forms button{
+    width: 80%;
+    height: 10%;
+    margin-top: 4%;
+    
+}
+
+.caixa3 .caixinhas .ajuste p{
+   color: blue;
+}
+
+.caixa3 .caixinhas .ajuste .ajusteimagem{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa3 .caixinhas .ajuste .ajusteimagem .imagens{
+    width: 30%;
+    height: 100%;
+}
+

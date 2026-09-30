@@ -1,0 +1,49 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+footer .caixa{
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .caixa .caixinhas{
+    width: 100%;
+    height: 50%;
+}
+
+footer .caixa .caixinhas .caixainhafooter{
+    width: 65%;
+    margin: 5% auto
+}
+
+footer .caixa .caixinhas .caixainhafooter p{
+    text-align: center;
+    color: white;
+    
+}
+
+footer .caixa .imagemfooter{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .caixa .imagemfooter .imagemdividida{
+    width: 20%;
+    height: 50%;
+}
